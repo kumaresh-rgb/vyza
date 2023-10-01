@@ -4,8 +4,7 @@ import Industries from "../components/Industries/Industries";
 import Cloud from "../components/Cloud/Cloud";
 import Stats from "../components/Stats/Stats";
 import ContactUs from "../components/Contact/ContactUs";
-
-import Testmonials from "../components/Testmonials/Testmonials";
+import Testimonials from "../components/Testimonials/Testimonials";
 import { Link } from "react-router-dom";
 
 
@@ -79,7 +78,7 @@ const Body = () => {
     <Services/>
     <Industries/>
     {/* <Stats/> */}
-    <Testmonials/>
+    <Testimonials/>
     <ContactUs/>
     
    
