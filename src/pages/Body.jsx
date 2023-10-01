@@ -5,7 +5,7 @@ import Cloud from "../components/Cloud/Cloud";
 import Stats from "../components/Stats/Stats";
 import ContactUs from "../components/Contact/ContactUs";
 
-import Testmonials from "../components/testmonials/Testmonials";
+import Testmonials from "../components/Testmonials/Testmonials";
 import { Link } from "react-router-dom";
 
 
