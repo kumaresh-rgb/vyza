@@ -138,8 +138,6 @@ export default function Testmonials() {
         We have worked with thousands of amazing people
           </p>
           </div>
-    
-
     </div>
     <Marquee>
       <Testmonials1/>

@@ -1,11 +1,12 @@
 import React from "react";
-import Services from "./Services/Services";
-import Industries from "./Industries/Industries";
-import Cloud from "./Cloud/Cloud";
-import Stats from "./Stats/Stats";
-import ContactUs from "./Contact/ContactUs";
-import Footer from "./Footer/Footer";
-import Testmonials from "./testmonials/testmonials";
+import Services from "../components/Services/Services";
+import Industries from "../components/Industries/Industries";
+import Cloud from "../components/Cloud/Cloud";
+import Stats from "../components/Stats/Stats";
+import ContactUs from "../components/Contact/ContactUs";
+
+import Testmonials from "../components/testmonials/testmonials";
+import { Link } from "react-router-dom";
 
 
 
@@ -29,11 +30,11 @@ const Body = () => {
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             Announcing our next Gerneration AI services.{" "}
-            <a href="#" className="font-semibold text-indigo-600">
-              <span className="absolute inset-0" aria-hidden="true" />
-              Read more <span aria-hidden="true">&rarr;</span>
+            <a href="/About"  className="font-semibold text-indigo-600">
+              <span  className="absolute inset-0" style={{ zIndex: 10 }}  aria-hidden="true" />
+               Read more <span aria-hidden="true">&rarr;</span>
             </a>
-          </div>
+          </div>  
         </div>
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -43,15 +44,17 @@ const Body = () => {
           To earn the lifetime loyalty of our customers by consistently delivering high-quality Solutions and Services which will add value to our customers.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
+          <a
+          href="/Contact"
+          className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          style={{ zIndex: 10 }} // Increase the z-index here
+        >
+          <button>Contact Us</button>
+        </a>
+        
             <a
-              href="#"
-              className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Contact Us
-            </a>
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
+              href="/About"
+              className="text-sm font-semibold leading-6 text-gray-900"  style={{ zIndex: 10 }} 
             >
               Learn more <span aria-hidden="true">→</span>
             </a>
@@ -78,7 +81,7 @@ const Body = () => {
     {/* <Stats/> */}
     <Testmonials/>
     <ContactUs/>
-    <Footer/>
+    
    
     
 

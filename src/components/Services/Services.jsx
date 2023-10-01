@@ -68,7 +68,7 @@ export default function services() {
                 
                
                 <div className="mt-7 text-base text-gray-600 flex justify-end"> 
-                 <button class="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
+                 <button className="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
               
               </div>
               

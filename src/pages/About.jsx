@@ -1,4 +1,4 @@
-import Footer from "../components/Footer/Footer"
+
 import OurTeams  from "../components/OurTeams/OurTeams"
 const links = [
   { name: 'Open roles', href: '#' },
@@ -716,7 +716,7 @@ export default function About() {
     </div>
 
 <OurTeams/>
-<Footer/>
+
     </div>
   )
 }

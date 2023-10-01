@@ -5,7 +5,7 @@ import {
   WrenchScrewdriverIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
-import Footer from "../components/Footer/Footer";
+
 
 const features = [
   {
@@ -116,7 +116,7 @@ const MoreServices = () => {
                   </dd>
 
                   {/* <div className="mt-7 text-base text-gray-600 flex justify-end"> 
-                 <button class="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
+                 <button className="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
                */}
                 </div>
               ))}
@@ -160,14 +160,14 @@ const MoreServices = () => {
                   </dd>
 
                   {/* <div className="mt-7 text-base text-gray-600 flex justify-end"> 
-                 <button class="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
+                 <button className="bg-indigo-600 hover:bg-indigo-700 text-white  font-semibold py-1.5 px-4 rounded-full">{feature.Moreservices}</button> </div>
                */}
                 </div>
               ))}
             </dl>
           </div>
 
-      <Footer />
+   
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import Header from '../Header'
+import Header from '../../pages/Header'
 import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 
 
